@@ -41,13 +41,15 @@ public class MapsActivity extends FragmentActivity implements
 
     private static final String URL_OF_ASSETS = "http://www.scoilscamaill.com/Assets/List.csv";
     private static final String FILE_NAME = "List";
-    private GoogleMap mMap;
-    private ClusterManager<MyItem> mClusterManager;
-    private MyItem clickedClusterItem;
+   
     private boolean goingToInfoWindow;
     private String[] nameOfSchool, addressOfSchool, schoolContact, typeOfSchool, publicOrPrivate, phoneNumber, 
     			premiumStatus, latitudeString, longitudeString;
-    private Double[] latitude, longitude;
+    private Double[] latitude, longitude; 
+    
+    private GoogleMap mMap;
+    private ClusterManager<MyItem> mClusterManager;
+    private MyItem clickedClusterItem;
 
     @Override protected void onCreate(Bundle savedInstanceState)
     {
