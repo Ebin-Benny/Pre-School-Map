@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/table"
+    >
+
+    <TableRow
+        android:background="@drawable/back"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="start" />
+
+    </TableRow>
+    <TableLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/table2"
+        android:shrinkColumns="1">
+    <TableRow
+        android:id="@+id/tr1"
+        android:background="@drawable/normalback"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: "
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0"
+            android:singleLine="true" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr2"
+        android:background="@drawable/normalback"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community/Public: "
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:maxLines="1" />
+
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="private or public"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:autoLink="phone" />
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/tr3"
+        android:background="@drawable/normalback"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact: "
+            android:textStyle="italic"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:singleLine="true" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/tr4"
+        android:background="@drawable/normalback"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: "
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="13sp"
+            android:maxLines="1" />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/tr5"
+        android:background="@drawable/backbottom"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:text="jkasfshjkff adfs fsdafasdffs sdf asfsfasdf fsfasfadf sdfasfasdf  asdfsfsfsdfasd asdfsdfsdf sdfsadfasfasf asdfsdfsadfadf asdfasf"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+             />
+
+    </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/arrow"
+
+            />
+
+    </TableRow>
+
+</TableLayout>

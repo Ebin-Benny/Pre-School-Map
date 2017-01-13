@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Childcare Finder Ireland</string>
+    <string name="title_activity_maps">Childcare Finder Ireland</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8734191689233600/3239347772</string>
+    <string name="arrow">Arrow</string>
+
+</resources>
