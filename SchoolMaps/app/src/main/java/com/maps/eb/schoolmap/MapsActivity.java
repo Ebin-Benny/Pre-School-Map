@@ -39,7 +39,7 @@ public class MapsActivity extends FragmentActivity implements
 		ClusterManager.OnClusterItemInfoWindowClickListener<MyItem>
 {
 
-    private static final String URL_OF_ASSETS = "http://www.scoilscamaill.com/Assets/List.csv";
+    private static final String URL_OF_ASSETS = "http://www.example.com/List.csv";				//Real link removed to protect data.
     private static final String FILE_NAME = "List";
    
     private boolean goingToInfoWindow;
